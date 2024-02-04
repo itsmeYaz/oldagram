@@ -12,26 +12,31 @@
         <div class="hero-images">
           <img class="images" src="./images/logo.png" alt="" />
           <div class="flex-container">
-            <img class="images avatar" src="./images/user-avatar.png" alt="" />
+            <img class="images avatar" src="./images/rimuru.jpg" alt="" />
           </div>
         </div>
       </div>
     </header>
 
     <section>
-      <div class="container">
+      <div id="post-container">
         <div class="user">
           <div class="user-avatar">
-            <img class="avatar" src="./images/avatar-vangogh.jpg" alt="" />
+            <img
+              class="avatar"
+              id="avatar"
+              src="./images/avatar-vangogh.jpg"
+              alt=""
+            />
           </div>
 
           <div class="user-details">
-            <p class="user-info name">Vincent van Gogh</p>
-            <p class="user-info">Zudert, Netherlands</p>
+            <p class="user-info name" id="name">Vincent van Gogh</p>
+            <p class="user-info" id="location">Zudert, Netherlands</p>
           </div>
         </div>
 
-        <img class="post" src="./images/post-vangogh.jpg" alt="" />
+        <img class="post" id="post" src="./images/post-vangogh.jpg" alt="" />
 
         <div class="icons">
           <img class="icon" src="./images/icon-heart.png" alt="" />
@@ -40,13 +45,15 @@
         </div>
 
         <div class="post-details">
-          <p class="likes">1,000 likes</p>
+          <p class="likes" id="likes">1,000 likes</p>
           <p>
-            <span class="username">vincey1853</span> just took a few mushrooms
-            lol
+            <span class="username" id="username">vincey1853</span>
+            <span id="comment">just took a few mushrooms lol</span>
           </p>
         </div>
       </div>
     </section>
+
+    <script src="./app.js"></script>
   </body>
 </html>

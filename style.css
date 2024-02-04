@@ -4,7 +4,8 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
-.container {
+.container,
+#post-container {
   width: 500px;
   margin: 0 auto;
 }
@@ -34,7 +35,6 @@ body {
 }
 
 /* Layout */
-
 .hero-images {
   padding: 12px 25px;
   display: flex;
