@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
 .container {
   width: 500px;
   margin: 0 auto;
-  border: 2px red solid;
 }
 
 /* Images */
@@ -12,8 +17,20 @@
 
 .avatar {
   border-radius: 50%;
-  width: 50px;
+  width: 40px;
   flex-shrink: 0;
+}
+
+.post {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.icon {
+  width: 35px;
+  margin-right: 5px;
+  vertical-align: bottom;
 }
 
 /* Layout */
@@ -32,11 +49,39 @@
 }
 
 /* typography */
+
+.user-details {
+  margin-left: 0;
+}
+
 .user-info {
   display: block;
   margin: 1px 0 0;
 }
 
+.name {
+  font-weight: 900;
+}
+
 .user-avatar {
-  margin-right: 20px;
+  margin-right: 15px;
+}
+
+.icons {
+  padding: 10px 15px 0;
+  margin-bottom: 0;
+}
+
+.post-details {
+  margin-top: 0;
+  padding-left: 15px;
+  line-height: 1;
+}
+
+.likes {
+  font-weight: 900;
+}
+
+.username {
+  font-weight: 900;
 }
